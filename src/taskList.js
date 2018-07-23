@@ -4,7 +4,7 @@ class TaskList {
 // }
   //grab some data from the page
   newSubmit() {
-    const submitForm = document.querySelector("create-task-form")
+    const submitForm = document.querySelector("#create-task-form")
     submitForm.addEventListener("submit", (e) => {
         e.preventDefault();
 
