@@ -1,3 +1,5 @@
+<!-- View -->
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -12,6 +14,11 @@
     <form id="create-task-form" action="#" method="post">
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <select name="priorities">
+        <option value="red">High priority</option>
+        <option value="goldenrod">Medium priority</option>
+        <option value="green">Low priority</option>
+      </select>
       <input type="submit" value="Create New Task">
     </form>
 
